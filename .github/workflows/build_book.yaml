@@ -45,7 +45,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          uv sync --extra cpu
+          uv sync
 
       - name: Render book to all format
         # Add any command line argument needed
