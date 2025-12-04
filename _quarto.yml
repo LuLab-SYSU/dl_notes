@@ -1,0 +1,34 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "深度学习笔记"
+  reader-mode: true
+
+  page-footer:
+    left: |
+      [陆震](https://leslie-lu.github.io/)
+    right: |
+      本书使用 <a href="https://quarto.org/">Quarto</a> 构建。
+  cover-image: cover.png
+  favicon: cover.png
+  site-url: https://LuLab-SYSU.github.io/dl_notes/
+  repo-url: https://github.com/LuLab-SYSU/dl_notes/
+  repo-branch: main
+  repo-actions: [edit, issue]
+  chapters:
+    - chapters/index.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - dl_notes.scss
+    code-link: true
+
+    author-meta: "陆震"
+    include-in-header: "plausible.html"
+    callout-appearance: simple
+
+editor: source
