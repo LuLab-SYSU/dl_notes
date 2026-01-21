@@ -20,6 +20,8 @@ book:
   chapters:
     - index.qmd
 
+    - chapters/intro.qmd
+
 format:
   html:
     theme:
