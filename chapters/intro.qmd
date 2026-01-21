@@ -206,7 +206,7 @@ knitr::include_graphics("images/deeplearning-amazon.jpg", dpi = 270)
 
 **标记和解析**。这涉及到用属性注释文本序列。换句话说，输入和输出的数量基本上是相同的。例如，我们可能想知道动词和主语在哪里，或者可能想知道哪些单词是命名实体。通常，目标是基于结构和语法假设对文本进行分解和注释，以获得一些注释。下面是一个非常简单的示例，它使用“标记”来注释一个句子，该标记指示哪些单词引用命名实体。标记为“Ent”，是*实体*（entity）的简写。
 
-```{text}
+```text
 Tom has dinner in Washington with Sally
 Ent  -    -    -     Ent      -    Ent
 ```
@@ -230,7 +230,7 @@ knitr::include_graphics("images/speech.png", dpi = 270)
 换句话说，虽然我们仍将一个序列转换成另一个序列，但是输入和输出的数量以及相应序列的顺序大都不会相同。
 比如下面这个例子，“错误的对齐”反应了德国人喜欢把动词放在句尾的特殊倾向。
 
-```{text}
+```text
 德语:        Haben Sie sich schon dieses grossartige Lehrwerk angeschaut?
 英语:        Did you already check out this excellent tutorial?
 错误的对齐:   Did you already this excellent tutorial check out?
