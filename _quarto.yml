@@ -34,3 +34,5 @@ format:
     callout-appearance: simple
 
 editor: source
+
+bibliography: dl_notes.bib
